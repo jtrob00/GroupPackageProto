@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="32dp"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign-Up"
+        android:textSize="32dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="127dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[6]" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="768dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-257dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[6]" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="354dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Group Package"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/barrier"
+        tools:layout_editor_absoluteY="203dp" />
+
+</android.support.constraint.ConstraintLayout>
