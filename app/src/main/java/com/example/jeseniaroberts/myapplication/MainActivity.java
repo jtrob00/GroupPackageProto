@@ -10,7 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity
 {
     private Button logbutton;
-    private Button sinbutton;
+    private Button sinupbutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         logbutton = (Button) findViewById(R.id.button);
-        sinbutton = (Button) findViewById(R.id.button2);
+        sinupbutton = (Button) findViewById(R.id.button2);
 
         logbutton.setOnClickListener(new View.OnClickListener()
         {
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        sinbutton.setOnClickListener(new View.OnClickListener()
+        sinupbutton.setOnClickListener(new View.OnClickListener()
         {
 
             public void onClick(View v)

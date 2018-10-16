@@ -10,27 +10,27 @@ import android.widget.Button;
 
 public class Login extends AppCompatActivity {
 
-    private Button probutton;
+    private Button proLobutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        probutton = (Button) findViewById(R.id.button3);
+        proLobutton = (Button) findViewById(R.id.button3);
 
-        probutton.setOnClickListener(new View.OnClickListener()
+        proLobutton.setOnClickListener(new View.OnClickListener()
         {
 
             public void onClick(View v)
             {
 
-                openProfile();
+                openProfileLo();
             }
         });
     }
 
-    public void openProfile()
+    public void openProfileLo()
     {
 
         Intent intent = new Intent( this, Profile.class);

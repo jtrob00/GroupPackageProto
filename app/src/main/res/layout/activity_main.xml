@@ -57,6 +57,7 @@
         android:inputType="textPersonName"
         android:text="Group Package"
         android:textSize="50dp"
+        android:textColor="#FffF00"
         app:layout_constraintEnd_toEndOf="@+id/barrier"
         tools:layout_editor_absoluteY="203dp" />
 
